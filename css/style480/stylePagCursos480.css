@@ -1,0 +1,283 @@
+#containerPc{
+    display: none;
+}
+#banner img{
+    width: 92%;
+    margin-top: 0.5%;
+    height: 10em;
+    margin-left: 4%;
+}
+
+#tabela h2{
+    color: white;
+    background: #e89b0b;
+    font-size: 13px;
+    width: 92%;
+    margin-top: 2%;
+    padding: 0.7% 0%;
+    text-align: center;
+    margin-left: 4%;
+    letter-spacing: 4px;
+}
+p{
+    letter-spacing: -0.1px;
+}
+table {
+    width: 92.1%;
+    margin-left: 4%;
+    background: #f9b232;}
+td{
+    padding: 2%;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    border-right: 1px solid;
+}
+#td{
+    border-right: none;
+}
+hr{
+    color: #613564;
+}
+#content {
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    float: left;
+    margin-top: 21%;
+    width: 100%;
+}
+#objetivo {
+    width: 92%;
+    margin-left: 4%;
+    margin-top: 5%;
+}
+#imagemCurso1{
+    width: 33%;
+    float: right;
+}
+#faixa{
+    display: flex;
+    width: 36%;
+    margin-bottom: 2%;
+}
+#faixa h2{
+    color: white;
+    font-family: Roboto-Thin;
+    font-size: 16px;
+    width: 96%;
+    margin-top: 0.6%;
+    z-index: 2;
+    text-align: center;
+}
+#faixa img{
+    width: 32%;  
+    position: absolute;  
+}
+#faixa2{
+    display: flex;
+    width: 42%;
+    margin-bottom: 2%;
+    margin-left: 62%;
+}
+#faixa2 h2{
+    color: white;
+    font-family: Roboto-Thin;
+    font-size: 16px;
+    width: 96%;
+    margin-top: 0.6%;
+    z-index: 2;
+    text-align: center;
+}
+#faixa2 img{
+    width: 35%;
+    position: absolute;
+    transform: rotateY(180deg);
+}
+#text{
+    color: #636060;
+    font-size: 12px;
+    width: 64%;
+    margin-top: 1%;
+    margin-left: 0%;
+    text-align: justify;
+}
+#mercado{
+    width: 92%;
+    margin-left: 4%;
+    margin-top: 6%;
+}
+#imagemCurso2{
+    width: 33%;
+    /* float: left; */
+    position: absolute;
+}
+#mercadoImg{
+    float: right;
+}
+#text2{
+    color: #636060;
+    font-size: 12px;
+    width: 61%;
+    float: right;
+    margin-top: 1%;
+    text-align: justify;
+}
+#materias{
+    margin-left: 4%;
+    margin-top: 2%;
+    width: 92%;
+}
+#materia{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#materia h3{
+    text-align: center;
+    font-size: 16px;
+    color: #537d47;
+    margin-bottom: 3%;
+}
+#materia p{
+    width: 59%;
+    font-size: 13px;
+    justify-content: center;
+    text-align: justify;
+    color: #636060;
+}
+#divisao{
+    margin-top: 5%;
+    width: 74%;
+    margin-left: 13%;
+    margin-bottom: 5%;
+}
+#titulo{
+    display: flex;
+    align-items: center;
+    margin: 5%;
+    margin-bottom: 2%;
+}
+#hr1{
+    width: 29%;
+    float: left;
+    margin-right: 3.5%;
+}
+#title{
+    color: #e3ae54;
+    text-align: center;
+}
+#hr2{
+    width: 29%;
+    float: right;
+    margin-left: 3.5%;
+}
+#comentarios{
+    width: 92%;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 20%;
+}
+#comentarios img{
+    margin-left: 6%;
+    width: 23%;
+    margin-top: 1%;
+}
+#perfil div{
+    color: #636060;
+    font-size: 12px;
+    width: 68%;
+    float: right;
+    margin-top: 2%;
+    margin-left: 0%;
+    text-align: justify;
+}
+#perfil div p{
+    width: 89%;
+}
+#perfil{
+    margin-top: 0%;
+    width: 92%;
+    margin-left: 3%;
+}
+#noticias{
+    width: 92%;
+    margin-left: 4%;
+}
+.hrNot{
+    width: 72%;
+    margin-left: 14%;
+}
+.wrapper {
+    width: 100%;
+    display: flex;
+    margin: 5% 0% 5% 3%;
+    flex-direction: column;
+}
+.faixa{
+    width: 23%;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    align-content: center;
+    display: flex;
+    margin-left: 19.2%;
+}
+#identifiq{
+    width: 100%;
+    float: left;
+    height: 1.5em;
+    position: absolute;
+}
+.faixa p{
+    color: white;
+    font-family: Roboto-Regular;
+    font-size: 15px;
+    width: 69%;
+    z-index: 2;
+    margin-left: 22%;
+    text-align: center;
+    margin-top: 3.6%;
+}
+.box img {
+    object-fit: cover;
+  }
+a{
+    text-decoration: none;
+}
+.cont {
+    display: flex;
+    float: left;
+    justify-content: center;
+    width: 64%;
+    margin-left: 3%;
+    flex-direction: column;
+  }
+.imageB{
+    width: 27%;
+    float: left;
+}  
+.cont h5 {
+    font-family: Roboto-Regular, sans-serif;
+    color: #398e5c;
+    font-size: 16px;
+    margin-top: 3.3%;
+  }
+.data{
+    color: #000000;
+    font-size: 12px;
+    width: 100%;
+    margin-top: 2.1%;
+    display: flex;
+    justify-content:  flex-end;
+}
+.text{
+    color: #636060;
+    font-size: 13px;
+    width: 100%;
+    margin-left: 0%;
+    text-align: justify;
+}
+

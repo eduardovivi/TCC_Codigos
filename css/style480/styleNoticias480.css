@@ -1,0 +1,128 @@
+#containerPc{
+    display: none;
+}
+#banner{
+    box-shadow: 5px 5px 16px rgba(50, 50, 50, 0.3);
+    min-width: calc(50% - 2rem);
+    height: auto;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 55.5%;
+}
+#bannerCont{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+  }
+#bannerCont div{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 15%;
+    background: #9797979c;
+    z-index: 1;
+}
+#banner h5{
+    font-family: Roboto-Regular;
+    margin-left: 6%;
+    font-size: 13px;
+    color: white;
+}
+#banner p{
+    font-family: Roboto-Thin;
+    font-size: 13px;
+    margin-left: 4%;
+    color: white;
+}
+#content {
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    float: left;
+    margin-top: 21%;
+    margin-bottom: 3%;
+    width: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    margin: 0% 0% 0% 3%;
+    flex-direction: column;
+}
+.faixa{
+    width: 23%;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    align-content: center;
+    display: flex;
+    margin-left: 22.5%;
+}
+#identifiq{
+    width: 100%;
+    float: left;
+    height: 1.5em;
+    position: absolute;
+}
+.faixa p{
+    color: white;
+    font-family: Roboto-Regular;
+    font-size: 15px;
+    width: 69%;
+    z-index: 2;
+    margin-left: 22%;
+    text-align: center;
+    margin-top: 3.6%;
+}
+.box img {
+    object-fit: cover;
+  }
+a{
+    text-decoration: none;
+}
+.cont {
+    display: flex;
+    float: left;
+    justify-content: center;
+    width: 64%;
+    margin-left: 3%;
+    flex-direction: column;
+  }
+.imageB{
+    width: 28%;
+    float: left;
+}  
+.cont h5 {
+    font-family: Roboto-Regular, sans-serif;
+    color: #398e5c;
+    font-size: 16px;
+    margin-top: 3.3%;
+  }
+.data{
+    color: #000000;
+    font-size: 12px;
+    width: 100%;
+    margin-top: 2.1%;
+    display: flex;
+    justify-content:  flex-end;
+}
+.text{
+    color: #636060;
+    font-size: 13px;
+    width: 100%;
+    margin-left: 0%;
+    text-align: justify;
+}
+
+hr{
+    width: 72%;
+    margin: 2.7% 0% 2.7% 14%;
+    color: #613564;
+}

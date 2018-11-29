@@ -1,0 +1,59 @@
+#carrossel {
+    position: relative;
+}
+.carrossel-item {
+    position: absolute;
+    padding: 0% 0%;
+    opacity: 0;
+    transition: all 0.2s linear;
+}
+.seta {
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 11%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    background: url("imagens/seta.png") 50% 50%  no-repeat;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.seta:hover{
+     opacity: 1;
+}
+.seta-prev {
+    left: 0;
+}
+.seta-next {
+    right: 0;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(0deg);
+}
+@media (max-width: 480px) {
+    .seta, .light .seta {
+        background-size: 60%;
+        background-color: rgb(123,123,123);
+        background-position: 43% 50%;
+        opacity: 0.3;
+    }
+}
+[id^="target-item"] {
+    display: none;
+}
+.item-1 {
+    z-index: 2;
+    opacity: 1;
+}
+*:target ~ .item-1 {
+    opacity: 0;
+}
+#target-item-1:target ~ .item-1 {
+    opacity: 1;
+}  
+#target-item-2:target ~ .item-2, #target-item-3:target ~ .item-3 {
+    z-index: 2;
+    opacity: 1;
+}
+  

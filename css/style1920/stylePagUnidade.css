@@ -1,0 +1,273 @@
+#containerM{
+    display: none;
+}
+#banner{
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+#banner img{
+    width: 79%;
+    margin-top: 0.5%;
+    height: 22em;
+}
+hr{
+    color: #613564;
+}
+#content {
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    float: left;
+    margin-top: 1.1%;
+    width: 100%;
+}
+#historia {
+    width: 79%;
+    margin-left: 10.5%;
+    margin-top: 3%;
+}
+#faixa{
+    display: flex;
+    align-items: center;
+    width: 36%;
+    margin-bottom: 2%;
+}
+#faixa h2{
+    color: white;
+    font-family: Roboto-Thin;
+    font-size: 16px;
+    margin-top: 0.6%;
+    z-index: 2;
+    text-align: center;
+    color: white;
+    font-family: Roboto-Thin;
+    font-size: 31px;
+    margin-top: 0%;
+    margin-left: 30%;
+    z-index: 2;
+}
+#faixa img{
+    width: 26%;
+    float: left;
+    position: absolute;
+    height: 5%;
+}
+
+#text{
+    color: #9a9a9a;
+    font-size: 23px;
+    width: 97%;
+    margin-top: 1%;
+    margin-left: 2%;
+    text-align: justify;
+}
+
+#materias{
+    margin-left: 10.5%;
+    margin-top: 3%;
+    display: flex;
+    width: 79%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#materia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#materia h3{
+    text-align: center;
+    font-size: 28px;
+    color: #537d47;
+    margin-bottom: 2%;
+}
+#materia p{
+    width: 59%;
+    font-size: 23px;
+    justify-content: center;
+    text-align: center;
+    color: #636060;
+}
+#divisao{
+    margin-top: 3%;
+    width: 56%;
+    margin-bottom: 3%;
+}
+#titulo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%;
+}
+#titleP{
+    color: #e3ae54;
+    text-align: center;
+    font-size: 32px;
+    width: 100%;
+}
+#title{
+    color: #e3ae54;
+    text-align: center;
+    font-size: 32px;
+    width: 23%;
+}
+
+#infra{
+    margin-left: 10.5%;
+    margin-top: 3%;
+    width: 79%;
+    display: flex;
+    flex-direction: column;
+}
+#imagens{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+.imagens{
+    width: 15%;
+    padding: 1%;
+}
+#titulos{
+    display: flex;
+    align-items: center;
+    margin: 4%;
+    margin-bottom: 3%;
+}
+#hr1{
+    width: 34.5%;
+    float: left;
+    margin-right: 3.5%;
+}
+#hr2{
+    width: 34.5%;
+    float: right;
+    margin-left: 3.5%;
+}
+.box {
+    position: relative;
+    display: flex;
+    align-items: end;
+    overflow: hidden;
+    margin-top: 1%;
+}
+a{
+    text-decoration: none;
+  }
+#contato{
+    margin-left: 10.5%;
+    margin-top: 1%;
+    width: 79%;
+    display:  flex;
+    flex-direction:  column;
+    margin-bottom: 2%;
+}
+#info{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+#info p{
+    padding: 1%;
+    text-align: center;
+}
+.contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 21px;
+    width: 30%;
+    font-family: Roboto-Regular;
+}
+#noticias{
+    width: 79%;
+    margin-left: 10.9%;
+}
+#conteudoNoticia{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3%;
+    width: 100%;
+}
+.hrNot{
+    width: 68%;
+    height: 1%;
+    margin: 3% 0%;
+    margin-left: 14%;
+}
+.wrapper {
+    width: 48%;
+    flex-direction: column;
+    display: flex;
+    margin: 0% 2% 0% 0%;
+}
+.faixa{
+    float: left;
+    width: 20%;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    align-content: center;
+    display: flex;
+    margin-left: 25.89%;
+}
+.faixa img{
+    width: 100%;
+    float: left;
+    position: absolute;
+}
+.faixa p{
+    color: white;
+    font-family: Roboto-Regular;
+    font-size: 21px;
+    width: 69%;
+    z-index: 2;
+    margin-left: 22%;
+    text-align: center;
+    margin-top: 5.6%;
+}
+a{
+    text-decoration: none;
+  }
+.cont {
+    display: flex;
+    float: left;
+    width: 58%;
+    margin-left: 2%;
+    flex-direction: column;
+  }
+.imageB{
+    width: 30%;
+    float: left;
+}  
+.cont h5 {
+    color: #398e5c;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-top: 2.3%;
+    margin-left: 0%;
+    font-family: Roboto-regular;
+  }
+.data{
+    color: #636060;
+    font-size: 18px;
+    width: 100%;
+    margin-left: 0%;
+    font-family: Roboto-regular;
+    margin-top: 2.1%;
+    display: flex;
+    justify-content: flex-end;
+}
+.text{
+    color: #636060;
+    font-size: 17px;
+    width: 100%;
+    font-family: Roboto-regular;
+    margin-left: 0%;
+    text-align: justify;
+    }

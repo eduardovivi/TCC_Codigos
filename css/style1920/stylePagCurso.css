@@ -1,0 +1,338 @@
+
+#banner{
+    width:100%;
+}
+#banner img{
+    width: 79%;
+    margin-top: 0.5%;
+    height: 22em;
+    margin-left: 10.6%;
+}
+#bannerFaixa{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.3%;
+}
+#bannerFaixa img{
+    width: 26%;
+    float: left;
+    position: absolute;
+    height: 5%;
+}
+#bannerFaixa h2{
+    z-index: 2;
+    margin-top: 1%;
+    margin-left: 13%;
+    color: white;
+    font-family: Roboto-Thin;
+    font-size: 30px;
+}
+#junto{
+    margin-top: 2%;
+}
+#tabela h2{
+    color: white;
+    background: #ee7c47;
+    font-size: 28px;
+    width: 100%;
+    float: right;
+    padding: 3% 0%;
+    text-align: center;
+}
+p{
+    letter-spacing: -0.1px;
+}
+#tabela{
+    width: 15%;
+    margin-left: 74.6%;
+}
+table {
+    width: 100%;
+    float: right;
+    background: #fde6d8;
+    }
+td{
+    padding: 7%;
+    color: #9a9a9a;
+    font-size: 23px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+#td{
+    border-bottom: none;
+}
+hr{
+    color: #613564;
+}
+#content {
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    float: left;
+    margin-top: 0.5%; 
+    width: 100%;
+}
+#objetivo {
+    width: 79%;
+    margin-left: 10.5%;
+}
+#imagemCurso1{
+    width: 33%;
+    float: right;
+}
+#faixa{
+    display: flex;
+    width: 24%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    justify-content: center;
+    align-items: center;
+}
+#faixa h2{
+    color: white;
+    font-family: Roboto-Thin;
+    font-size: 31px;
+    margin-top: 0%;
+    margin-left: 10%;
+    z-index: 2;
+}
+#faixa img{
+    width: 22%;
+    height: 7%;
+    position: absolute;
+    width: 26%;
+    float: left;
+    margin-left: 2%;
+    position: absolute;
+    height: 5%;
+}
+#faixa2{
+    display: flex;
+    width: 42%;
+    margin-bottom: 1%;
+    margin-left: 62%;
+}
+#faixa2 h2{
+    width: 96%;
+    text-align: center;
+    color: white;
+    font-family: Roboto-Thin;
+    font-size: 31px;
+    z-index: 2;
+}
+#faixa2 img{
+    width: 26%;
+    float: left;
+    margin-left: 2%;
+    position: absolute;
+    height: 5%;
+    transform: rotateY(180deg);
+}
+#text{
+    color: #9a9a9a;
+    font-size: 23px;
+    width: 68%;
+    margin-top: 1%;
+    margin-left: 2%;
+    text-align: justify;
+}
+#mercado{
+    width: 79%;
+    margin-left: 10.5%;
+    margin-top: 4%;
+}
+#imagemCurso2{
+    width: 24%;
+    position: absolute;
+}
+#mercadoImg{
+    float: right;
+}
+#text2{
+    color: #636060;
+    font-size: 12px;
+    width: 61%;
+    float: right;
+    margin-top: 1%;
+    color: #9a9a9a;
+    font-size: 23px;
+    width: 68%;
+    margin-top: 1%;
+    text-align: justify;
+    text-align: justify;
+}
+#materias{
+    margin-left: 10.5%;
+    margin-top: 10%;
+    display: flex;
+    width: 79%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#materia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#materia h3{
+    text-align: center;
+    font-size: 28px;
+    color: #537d47;
+    margin-bottom: 2%;
+}
+#materia p{
+    width: 59%;
+    font-size: 23px;
+    justify-content: center;
+    text-align: center;
+    color: #636060;
+}
+#divisao{
+    margin-top: 3%;
+    width: 56%;
+    margin-bottom: 3%;
+}
+#titulo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2%;
+    margin-bottom: 3%;
+}
+#hr1{
+    width: 38.5%;
+    float: left;
+    margin-right: 3.5%;
+}
+#title{
+    color: #e3ae54;
+    text-align: center;
+    font-size: 32px;
+    width: 23%;
+}
+#hr2{
+    width: 38.5%;
+    float: right;
+    margin-left: 3.5%;
+}
+#comentarios{
+    width: 79%;
+    margin-left: 10.9%;
+    margin-top: 4%;
+    margin-bottom: 14%;
+}
+#comentarios img{
+    margin-left: 18%;
+    width: 12%;
+    margin-top: 0%;
+}
+#perfil div{
+    color: #636060;
+    font-size: 12px;
+    width: 68%;
+    float: right;
+    margin-top: 2%;
+    margin-left: 0%;
+    text-align: justify;
+}
+#perfil div p{
+    width: 81%;
+    font-size: 25px;
+}
+#perfil{
+    margin-top: 0%;
+    width: 94%;
+    margin-left: 3%;
+}
+#noticias{
+    width: 79%;
+    margin-left: 10.9%;
+}
+#conteudoNoticia{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3%;
+    width: 100%;
+}
+.hrNot{
+    width: 68%;
+    height: 1%;
+    margin: 3% 0%;
+    margin-left: 14%;
+}
+.wrapper {
+    width: 48%;
+    flex-direction: column;
+    display: flex;
+    margin: 0% 2% 0% 0%;
+}
+.faixa{
+    float: left;
+    width: 8%;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    align-content: center;
+    display: flex;
+    margin-left: 9.75%;
+}
+.faixa img{
+    width: 100%;
+    float: left;
+    position: absolute;
+}
+.faixa p{
+    color: white;
+    font-family: Roboto-Regular;
+    font-size: 21px;
+    width: 69%;
+    z-index: 2;
+    margin-left: 22%;
+    text-align: center;
+    margin-top: 5.6%;
+}
+a{
+    text-decoration: none;
+  }
+.cont {
+    display: flex;
+    float: left;
+    width: 58%;
+    margin-left: 2%;
+    flex-direction: column;
+  }
+.imageB{
+    width: 30%;
+    float: left;
+}  
+.cont h5 {
+    color: #398e5c;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-top: 2.3%;
+    margin-left: 0%;
+    font-family: Roboto-regular;
+  }
+.data{
+    color: #636060;
+    font-size: 18px;
+    width: 100%;
+    margin-left: 0%;
+    font-family: Roboto-regular;
+    margin-top: 2.1%;
+    display: flex;
+    justify-content: flex-end;
+}
+.text{
+    color: #636060;
+    font-size: 17px;
+    width: 100%;
+    font-family: Roboto-regular;
+    margin-left: 0%;
+    text-align: justify;
+    }

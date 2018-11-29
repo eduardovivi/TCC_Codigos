@@ -1,0 +1,261 @@
+#containerPc{
+    display: none;
+}
+#banner img{
+    width: 92%;
+    margin-top: 0.5%;
+    height: 10em;
+    margin-left: 4%;
+}
+
+hr{
+    color: #613564;
+}
+#content {
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    float: left;
+    margin-top: 21%;
+    width: 100%;
+}
+#historia {
+    width: 92%;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+#faixa{
+    display: flex;
+    width: 36%;
+    align-items: center;
+    margin-bottom: 2%;
+    /* justify-content: center; */
+}
+#faixa h2{
+    color: white;
+    font-family: Roboto-Thin;
+    font-size: 16px;
+    width: 96%;
+    margin-top: 0.73%;
+    z-index: 2;
+    text-align: center;
+}
+#faixa img{
+    width: 32%;  
+    position: absolute;  
+}
+
+#text{
+    text-decoration: none;
+    font-size: 12px;
+    width: 100%;
+    margin-top: 1%;
+    margin-left: 0%;
+    text-align: justify;
+    color: #636060;
+}
+
+#cursos{
+    margin-left: 4%;
+    margin-top: 1%;
+    width: 92%;
+}
+#curso{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#curso h3{
+    text-align: center;
+    font-size: 16px;
+    color: #537d47;
+    font-family: Roboto-Thin;
+    margin-bottom: 3%;
+}
+#curso p{
+    width: 59%;
+    font-size: 13px;
+    justify-content: center;
+    text-align: justify;
+}
+#divisao{
+    margin-top: 5%;
+    width: 74%;
+    margin-left: 13%;
+    margin-bottom: 5%;
+}
+#titulo{
+    display: flex;
+    align-items: center;
+    margin: 5%;
+    margin-bottom: 2%;
+}
+#hr1{
+    width: 29%;
+    float: left;
+    margin-right: 3.5%;
+}
+#title{
+    color: #e3ae54;
+    text-align: center;
+    font-family: Roboto-Regular;
+    margin: 0;
+    margin-bottom: 1%;
+}
+#hr2{
+    width: 29%;
+    float: right;
+    margin-left: 3.5%;
+}
+#infra{
+    margin-left: 4%;
+    margin-top: 1%;
+    width: 92%;
+}
+#imagens{
+    margin-left: 4%;
+}
+.imagens{
+    width: 29%;
+    padding: 1%;
+}
+#noticias{
+    width: 92%;
+    margin-bottom: 21%;
+    margin-left: 4%;
+}
+#titulos{
+    display: flex;
+    align-items: center;
+    margin: 4%;
+    margin-bottom: 3%;
+}
+#hr1{
+    width: 29%;
+    float: left;
+    margin-right: 3.5%;
+}
+#hr2{
+    width: 29%;
+    float: right;
+    margin-left: 3.5%;
+}
+.wrapper {
+    width: 87%;
+    display: flex;
+    position: relative;
+    margin-left: 7%;
+}
+.box {
+    position: relative;
+    justify-content: center;
+    align-items: end;
+    overflow: hidden;
+    margin-left: 2%;
+}
+.faixa{
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    align-content: center;
+    display: flex;
+    margin-left: 24%;
+}
+#identifiq{
+    width: 100%;
+    float: left;
+    height: 1.8em;
+    position: absolute;
+}
+.faixa p{
+    color: white;
+    font-family: Roboto-Regular;
+    font-size: 15px;
+    width: 69%;
+    z-index: 2;
+    margin-left: 22%;
+    text-align: center;
+    margin-top: 3.6%;
+}
+.box img {
+    object-fit: cover;
+  }
+a{
+    text-decoration: none;
+  }
+.cont {
+    display: flex;
+    float: left;
+    justify-content: center;
+    width: 62%;
+    margin-left: 3%;
+    flex-direction: column;
+  }
+.imageB{
+    width: 31%;
+    float: left;
+}  
+.cont h5 {
+    font-family: Roboto-Regular, sans-serif;
+    color: #398e5c;
+    font-size: 16px;
+    margin-top: 4.3%;
+  }
+.data{
+    color: #000000;
+    font-size: 12px;
+    width: 100%;
+    margin-top: 3.1%;
+    display: flex;
+    justify-content:  flex-end;
+}
+.text{
+    color: #000000;
+    font-size: 12px;
+    width: 100%;
+    text-align: justify;
+    letter-spacing: 0px;
+}
+#contato{
+    margin-left: 4.2%;
+    margin-top: 1%;
+    width: 92%;
+    display:  flex;
+    flex-direction:  column;
+    margin-bottom: 3%;
+}
+#info{
+    display: flex;
+    width: 91%;
+    margin-left: 4.3%;
+    padding: 2% 0%;
+}
+#info p{
+    padding: 1%;
+    text-align: center;
+}
+#esquerda{
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid;
+    border-right-style: dashed;
+    align-items: flex-start;
+    border-color: #613564;
+    font-size: 13px;
+    width: 52%;
+    font-family: Roboto-Regular;
+}
+#direita{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 42%;
+    margin-left: 6%;
+    letter-spacing: 2.4px;
+    font-size: 13px;
+    font-family: Roboto-Regular;
+}
