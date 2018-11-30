@@ -10,7 +10,7 @@ class TApplication{
                              'Components\Module_comum',
                              'Components');
          
-         $pagina    = isset($_REQUEST['pagina'])?$_REQUEST['pagina']:'login480.html';
+         $pagina    = isset($_REQUEST['pagina'])?$_REQUEST['pagina']:'login.html';
          $component = isset($_REQUEST['component'])?$_REQUEST['component']:'LoginComponent';
          $erro404Component = 'Erro404Component';
          $method = isset($_REQUEST['method'])?$_REQUEST['method']:'indexController';

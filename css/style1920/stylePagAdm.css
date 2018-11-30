@@ -1,0 +1,35 @@
+
+h1{
+    text-align: center;
+    font-family: Roboto-Regular;
+    margin-top: 20px;
+    height: 48px;
+}
+
+h2{
+    text-align:center;
+}
+#buttons{
+    border: none;
+    display: flex;
+    width: 43%;
+    margin-top: 2%;
+    margin-left: 26%;
+    justify-content: space-around;
+}
+
+#buttons a{
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    font-family: Roboto-Regular;
+}
+#buttons a:hover{
+    color:blue;
+}
+#conteudo{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    width: 100%;
+}

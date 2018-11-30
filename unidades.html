@@ -14,6 +14,16 @@
     <!-- Opcional -->
     <meta name=author content='Equipe 05'>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130165706-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-130165706-1');
+    </script>
+    
     <link rel="stylesheet" media="screen and (max-width:480px)" href="css/style480/menu.css">
     <link rel="stylesheet" media="screen and (max-width:480px)" href="css/style480/styleUnidades480.css">
     <link rel="stylesheet" media="screen and (max-width:480px)" href="css/style480/footer480.css">
@@ -33,38 +43,37 @@
 
 <body>
     <div id="containerPc">
-            <header>
-                    <a href="landpage.html" id="icon">
-                        <img src="imagens/fiebIVazio.png" class="iconTop" alt="">
-                    </a>
-                    <nav>
-                        <ul class="menu">
-                            <li>
-                                <a href="cursos.html">CURSOS</a>
-                            </li>
-                            <li>
-                                <a href="unidades.html">UNIDADES</a>
-                            </li>
-                            <li>
-                                <a href="noticias.html">NOTÍCIAS</a>
-                            </li>
-                            <li>
-                                <a href="#">VESTIBULINHO</a>
-                            </li>
-                            <li>
-                                <a href="#">TESTE VOCACIONAL</a>
-                            </li>
-                            <li>
-                                <a href="contatos.html">CONTATOS</a>
-                            </li>
-                            <li>
-                                <a href="historia.html">HISTÓRIA</a>
-                            </li>
-                        </ul>
-                        <input type="search" name="busca" id="busca">
-            
-                    </nav>
-                </header>
+        <header>
+            <a href="index.html" id="icon">
+                <img src="imagens/fiebIVazio.png" class="iconTop" alt="">
+            </a>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a href="cursos.html">CURSOS</a>
+                    </li>
+                    <li>
+                        <a href="unidades.html">UNIDADES</a>
+                    </li>
+                    <li>
+                        <a href="noticias.html">NOTÍCIAS</a>
+                    </li>
+                    <li>
+                        <a href="https://fiebdigital.fieb.edu.br/vestibulinho">VESTIBULINHO</a>
+                    </li>
+                    <li>
+                        <a href="testes.html">TESTE VOCACIONAL</a>
+                    </li>
+                    <li>
+                        <a href="contatos.html">CONTATOS</a>
+                    </li>
+                    <li>
+                        <a href="historia.html">HISTÓRIA</a>
+                    </li>
+                    <input type="search" name="busca" id="busca">
+                </ul>
+            </nav>
+        </header>
         <div id="content">
             <div class="wrapper">
                 <a href="pagUnidade.html">
@@ -82,7 +91,7 @@
                     <div class="box">
                         <img src="imagens/unidade2.png" class="imageB" alt="">
                         <div class="cont">
-                            <h5>FIEB -JARDIM BELVAL
+                            <h5>FIEB - JARDIM BELVAL
                                 <p> ITB BRASÍLIO FLORES DE AZEVEDO</h5>
                         </div>
                     </div>
@@ -131,10 +140,30 @@
                     </div>
                 </a>
             </div>
+            <div class="wrapper">
+                <a href="pagUnidade.html">
+                    <div class="box">
+                        <img src="imagens/unidade3.png" class="imageB" alt="">
+                        <div class="cont">
+                            <h5>FIEB - JD. MARIA CRISTINA - (DAGMAR RIBAS TRINDADE)</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="wrapper">
+                <a href="pagUnidade.html">
+                    <div class="box">
+                        <img src="imagens/unidade3.png" class="imageB" alt="">
+                        <div class="cont">
+                            <h5>UAB - UNIVERSIDADE ABERTA DO BRASIL</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
         </div>
         <footer>
             <div id="submenu">
-                <a href="landpage.html"> Home </a>
+                <a href="index.html"> Home </a>
                 <a href="cursos.html">Cursos</a>
                 <a href="unidades.html">Unidades</a>
                 <a href="noticias.html">Notícias</a>
@@ -143,7 +172,7 @@
                 <a href="contatos.html">Contato</a>
                 <ul id="login">
                     <li>
-                        <a href="login.html">Adm</a>
+                        <a href="login.php">Adm</a>
                     </li>
                 </ul>
             </div>
@@ -175,10 +204,10 @@
     <div id="containerM">
         <header id="header">
             <nav>
-                <a href="landpage.html">
+                <a href="index.html">
                     <img src="imagens/fiebIVazio.png" id="iconTop" alt="">
-                 </a>
-                 <input type="search" name="busca" id="busca">
+                </a>
+                <input type="search" name="busca" id="busca">
 
                 <input type="checkbox" id="check">
                 <label id="icone" for="check"></label>
@@ -187,7 +216,7 @@
                 </div>
                 <div class="barra">
                     <nav id="navMenu">
-                        <a href="landpage.html">
+                        <a href="index.html">
                             <div class="link">Home</div>
                         </a>
                         <a href="cursos.html">
@@ -232,7 +261,7 @@
                     <div class="box">
                         <img src="imagens/unidade2.png" class="imageB" alt="">
                         <div class="cont">
-                            <h5>FIEB -JARDIM BELVAL
+                            <h5>FIEB - JARDIM BELVAL
                                 <p> ITB BRASÍLIO FLORES DE AZEVEDO</h5>
                         </div>
                     </div>
@@ -281,10 +310,30 @@
                     </div>
                 </a>
             </div>
+            <div class="wrapper">
+                <a href="pagUnidade.html">
+                    <div class="box">
+                        <img src="imagens/unidade3.png" class="imageB" alt="">
+                        <div class="cont">
+                            <h5>FIEB - JD. MARIA CRISTINA - (DAGMAR RIBAS TRINDADE)</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="wrapper">
+                <a href="pagUnidade.html">
+                    <div class="box">
+                        <img src="imagens/unidade3.png" class="imageB" alt="">
+                        <div class="cont">
+                            <h5>UAB - UNIVERSIDADE ABERTA DO BRASIL</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
         </div>
         <footer>
             <div id="submenu">
-                <a href="landpage.html"> Home </a>
+                <a href="index.html"> Home </a>
                 <a href="cursos.html">Cursos</a>
                 <a href="unidades.html">Unidades</a>
                 <a href="noticias.html">Notícias</a>
@@ -308,9 +357,7 @@
                 <a href="https://www.flickr.com/">
                     <img src="imagens/icones/flikr.png" alt="">
                 </a>
-                <a href="login.php">
-                    <img src="imagens/imgLogin.png" id="imgAdm" alt="">
-                </a>
+
             </div>
             <p id="copy">© Copyright 2010-2018 - Fundação Instituto de Educação de Barueri - Todos os direitos
                 reservados.</p>

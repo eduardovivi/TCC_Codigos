@@ -99,6 +99,7 @@ hr{
     color: #636060;
     font-size: 12px;
     width: 64%;
+    font-family: Roboto-Regular;
     margin-top: 1%;
     margin-left: 0%;
     text-align: justify;
@@ -110,7 +111,6 @@ hr{
 }
 #imagemCurso2{
     width: 33%;
-    /* float: left; */
     position: absolute;
 }
 #mercadoImg{
@@ -120,6 +120,7 @@ hr{
     color: #636060;
     font-size: 12px;
     width: 61%;
+    font-family: Roboto-Regular;
     float: right;
     margin-top: 1%;
     text-align: justify;
@@ -168,6 +169,7 @@ hr{
 #title{
     color: #e3ae54;
     text-align: center;
+    font-family: Roboto-Regular;
 }
 #hr2{
     width: 29%;

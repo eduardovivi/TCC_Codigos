@@ -73,7 +73,7 @@ class CadastroUsuarioComponent implements IComponents {
             
             <!--<button type="button" name="btn_cadastro" id="btn_cadastro">Cadastrar</button>-->
            <input type="submit" value="Cadastrar" name="btnCadastrarUsuario" id="btnCadastrarUsuario" />
-           <a href = "login.php" name="Voltar">Login</a>
+           <a href = "login.php" name="Voltar">Já possui uma conta?</a>
         </form>
     </div>
     <div id="resultado"></div>';

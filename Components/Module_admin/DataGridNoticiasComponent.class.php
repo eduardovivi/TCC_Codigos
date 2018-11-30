@@ -35,8 +35,8 @@ class DataGridNoticiasComponent implements IComponents{
             case 'indexController':
                 $this->indexController();
             break;
-            case 'frmEditUser':
-                $this->frmEditUser();
+            case 'frmEditNot':
+                $this->frmEditNot();
             break;
             default:
                 break;
@@ -60,28 +60,28 @@ class DataGridNoticiasComponent implements IComponents{
         echo "</tr>";
         
         
-        foreach ($arrayNoticias as $key => $cur){
+        foreach ($arrayNoticias as $key => $not){
             echo "<tr>";
-            echo "<td>{$cur['cod_not']}</td>";
-            echo "<td>{$cur['titulo_not']}</td>";
-            echo "<td>{$cur['autor_not']}</td>";
-            echo "<td>{$cur['data_hora_not']}</td>";
-            echo "<td>{$cur['texto_not']}</td>";
-            echo "<td>{$cur['cod_status_not']}</td>";
+            echo "<td>{$not['cod_not']}</td>";
+            echo "<td>{$not['titulo_not']}</td>";
+            echo "<td>{$not['autor_not']}</td>";
+            echo "<td>{$not['data_hora_not']}</td>";
+            echo "<td>{$not['texto_not']}</td>";
+            echo "<td>{$not['cod_status_not']}</td>";
 
-            echo "<td><a href=# onClick=document.location='?component=DataGridNoticiasComponent&method=frmEditUser&cod_noticia={$cur['cod_not']}'>Editar</a></td>";
+            echo "<td><a href=# onClick=document.location='?component=DataGridNoticiasComponent&method=frmEditNot&cod_not={$not['cod_not']}'>Editar</a></td>";
             echo "<td><a href=#>Excluir</a></td>";
             echo "</tr>";
         }
         
         echo "</table>";
     }
-    public function frmEditUser(){
+    public function frmEditNot(){
         $noticia = new Noticia();
         $arrayNoticia = $noticia->select("and cod_not='{$_REQUEST['cod_not']}'");
         echo "<form>";
-        echo "<label>Código </label><input type=text name=cod_not value={$arrayNoticia[0]['cod_not']} disabled><br>";
-        echo "<label>Nome </label><textarea name=titulo_not value={$arrayNoticia[0]['titulo_not']}>{$arrayNoticia[0]['titulo_not']}</textarea><br>";
+        echo "<label>Código</label> <input type=text name=cod_not value={$arrayNoticia[0]['cod_not']} disabled><br>";
+        echo "<label>Nome</label> <textarea name=titulo_not value={$arrayNoticia[0]['titulo_not']}>{$arrayNoticia[0]['titulo_not']}</textarea><br>";
         echo "<label>Descrição </label><textarea name=autor_not cols=100 rows=35 value={$arrayNoticia[0]['autor_not']}>{$arrayNoticia[0]['autor_not']}</textarea><br>";
         echo "<label>Descrição Carreira </label><textarea name=data_hora_not cols=100 rows=35 value={$arrayNoticia[0]['data_hora_not']}>{$arrayNoticia[0]['data_hora_not']}</textarea><br>";
         echo "<label>Objetivo</label><textarea name=texto_not cols=100 rows=35 value={$arrayNoticia[0]['texto_not']}>{$arrayNoticia[0]['texto_not']}</textarea><br>";

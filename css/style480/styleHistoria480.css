@@ -58,9 +58,9 @@
 #text{
     width: 95%;
     text-align: justify;
-    font-size: 15px;
+    font-size: 14px;
+    font-family: Roboto-Regular;
     margin-top: 1%;
-    margin-left: 1%;
     display: flex;
     font-family: Roboto-Regular;
     color: #5c5c5c;
@@ -72,6 +72,7 @@
 }
 #text p{
     padding: 2%;
+    font-family: Roboto-Regular;
 }
 #imgNoticia{
     width: 100%;

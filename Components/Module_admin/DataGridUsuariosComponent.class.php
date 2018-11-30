@@ -38,6 +38,9 @@ class DataGridUsuariosComponent implements IComponents{
             case 'frmEditUser':
                 $this->frmEditUser();
             break;
+            case 'frmExclUser':
+                $this->frmExclUser();
+            break;
             default:
                 break;
         }   
@@ -70,7 +73,7 @@ class DataGridUsuariosComponent implements IComponents{
             echo "<td>{$usu['cod_forma']}</td>";
             echo "<td>{$usu['cod_tipo_usu']}</td>";
             echo "<td><a href=# onClick=document.location='?component=DataGridUsuariosComponent&method=frmEditUser&cod_usu={$usu['cod_usu']}'>Editar</a></td>";
-            echo "<td><a href=#>Excluir</a></td>";
+            echo "<td><a href=# onClick=document.location='?component=DataGridUsuariosComponent&method=frmExclUser&cod_usu={$usu['cod_usu']}>Excluir</a></td>";
             echo "</tr>";
         }
         
@@ -88,6 +91,10 @@ class DataGridUsuariosComponent implements IComponents{
         echo "<label>Código Status </label><input type=text name=cod_status_usu value={$arrayUsuario[0]['cod_status_usu']}><br>";
         echo "<label></label><input type=submit name=btn_enviar value=Salvar><br>";
         echo "</form>";
+    }
+    public function frmExclUser(){
+        $usuario = new Usuario();
+        $arrayUsuario = $usuario->delete("and cod_usu='{$_REQUEST['cod_usu']}'");
     }
     
 }

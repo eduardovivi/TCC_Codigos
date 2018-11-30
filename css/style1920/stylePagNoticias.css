@@ -1,21 +1,46 @@
 #containerM{
     display: none;
 }
+
 #banner{
-    box-shadow: 5px 5px 16px rgba(50, 50, 50, 0.1);
+    width:100%;
+}
+
+#bannerFaixa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.3%;
+    width: 24%;
+    margin-left: 19%;
+}
+#bannerFaixa img{
+    width: 18%;
+    float: left;
+    position: absolute;
+    height: 4%;
+}
+#bannerFaixa h2{
+    z-index: 2;
+    color: white;
+    font-family: Roboto-Thin;
+    font-size: 23px;
+}
+#bannerImg{
+    box-shadow: rgba(50, 50, 50, 0.1) 5px 5px 16px;
     min-width: calc(50% - 2rem);
     height: auto;
     display: flex;
     margin-top: 3%;
+    width: 26%;
     justify-content: center;
+    margin-left: 26%;
 }
 #bannerCont{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    overflow: hidden;
-  }
+    width: 55%;
+    height: 16em;
+    margin-top: 2%;
+}
 #container{
       width: 100%;
 }
@@ -34,16 +59,10 @@
     display: flex;
     flex-direction: column;
 }
-#identifiqF{
-    float: left;
-    margin: 0 0px 0 22%;
-    width: 7%;
-}
 #tituloSup{
     margin-top: 1%;
-    font-size: 32px;
+    font-size: 27px;
     margin-left: 22%;
-    float: left;
     font-family: Roboto-Regular;
     color: #37975e;
 }
@@ -77,7 +96,6 @@
     text-align: justify;
     font-size: 18px;
     margin-top: 1%;
-    margin-left: 1%;
     display: flex;
     font-family: Roboto-Regular;
     color: #5c5c5c;
@@ -87,6 +105,7 @@
 #text p{
     width: 60%;
     padding: 2%;
+    font-family: Roboto-Regular;
     font-size: 22px;
 }
 #imgNoticia{
@@ -115,6 +134,7 @@
     text-align: center;
     font-size: 32px;
     width: 23%;
+    font-family: Roboto-Regular;
 }
 #hr2{
     width: 38.5%;
@@ -123,7 +143,6 @@
 }
 #noticias{
     width: 79%;
-    margin-left: 10.9%;
 }
 #conteudoNoticia{
     display: flex;

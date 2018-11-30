@@ -12,6 +12,14 @@ body{
     margin-top: 40%;
     width: 100%;
 }
+
+#content a{
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    font-family:Roboto-Regular;
+}
+
 form{
     display: flex;
     align-items: center;
@@ -21,10 +29,14 @@ form{
     height: 16em;
     border-radius: 15px;
 }
+
+
 form h1{
     color: white;
     font-family:Roboto-Regular;
     margin-top: 2%;
+    margin-top: 7px;
+    margin-bottom: -14px;
 }
 form div{
     display: flex;
@@ -33,29 +45,16 @@ form div{
     width: 100%;
     margin-top: 2%;
 }
+
 #inserir input{
-    padding: 3%;
+    padding: 2.3%;
     margin-bottom: 3%;
-    border: 0px;
     width: 67%;
     text-align:  center;
-}
-
-#buttons{
-    display: flex;
-    flex-direction: row;
-    justify-content:  center;
-}
-
-#buttons input{
-    padding: 2.3%;
-    width: 27%;
-    margin-left: 4%;
-    color: white;
-    border: 0px;
-    background: #9b5c2457;
-    font-family: roboto-regular;
+    background: #244294;
     margin-right: 5%;
     border-radius: 4px;
+    font-size: 22px;
 }
+
 

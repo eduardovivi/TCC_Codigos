@@ -56,7 +56,7 @@ class LoginComponent implements IComponents{
         echo '
         <div id="inserir">
         <form method="post" name="frm_login">
-        <br/><h1>LOGIN ADM</h1><br/>
+        <br/><h1>LOGIN</h1><br/>
         <input type="hidden" name="acaoAjax" value="autenticar" />
         
             <input type="text" class="insira" placeholder="Insira seu email..." name="email" id="login" />
@@ -65,11 +65,11 @@ class LoginComponent implements IComponents{
             <div id="resultado"></div>';
 
       
-        
+        echo "<font color=white family=Roboto-Regular size=3px>*Somente para administradores*</font>";
         echo "<a href=# Onclick=document.location='?component=CadastroUsuarioComponent&method=indexController'>Cadastre-se</a>";
 
           echo'</form>';
-        echo"</div>";
+        echo'</div>';
         
     }
     
@@ -97,7 +97,7 @@ class LoginComponent implements IComponents{
                 $_SESSION['cod_tipo_usu'] = $arrayTipoUsuario[0]['cod_tipo_usu'];
                 $this->loadPerfil($arrayTipoUsuario[0]['nome_tipo_usu']);
             }else{
-                echo '<font color=white>Conta inativa ou senha incorreta, procure o administrador do site!</font>';
+                echo '<font color=white>Conta inativa ou senha incorreta</font>';
             }    
         }else{
             echo '<font color=white>Usuário não encontrado!</font>';

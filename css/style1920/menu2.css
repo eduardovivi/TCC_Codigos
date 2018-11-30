@@ -1,0 +1,95 @@
+
+*{
+    padding: 0;  
+    margin: 0;
+}
+@font-face {
+    font-family: Roboto-Regular;
+    src: url('fonte/Roboto-Regular.ttf');
+}
+@font-face {
+    font-family: Roboto-Thin;
+    src: url('fonte/Roboto-Thin.ttf');
+}
+#containerM{
+    display: none;
+}
+header{
+    display: flex;
+    align-items: center;
+    height: 77px;
+    width: 100%;
+    background: #000000b3;
+}
+#img{
+    width: 6.63%;
+    margin-left: 1.5%;
+    position: absolute;
+}
+#iconTop{
+    width: 100%;
+    float: left;
+}
+nav{
+    display: flex;
+    width: 76.5%;
+    align-items: center;
+}
+#check{
+    display: none;
+}
+#menu{
+    display: flex;
+}
+.barra{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin-left: 27%;
+    margin-top: 0.6%;
+}
+#navMenu{
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+#homeLink{
+    display: none;
+}
+.link{
+    display: block;
+    height: 25px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: white;
+    float: left;
+    text-decoration: none;
+    transition: all 0.1s linear;
+    font-family: Roboto-Regular;
+}
+.link:hover{
+    font-size: 23px;
+}
+#busca{
+    background:url(imagens/lupa.png) no-repeat center;
+    background-size: 40px;
+    padding:7px;
+    border-radius: 7px;
+    border:none;
+    background-color:white;
+    margin-left: 76.5%;
+    cursor: pointer;
+    width: 31px;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    font-size: 16px;
+    position: absolute;
+    font-family: Roboto-Regular;
+}
+
+#busca:focus{
+    width: 200px;
+    background-position-x:1%;
+    outline: none; 
+    background-image: none;
+}

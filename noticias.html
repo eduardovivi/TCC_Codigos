@@ -13,6 +13,16 @@
     <!-- Opcional -->
     <meta name="author" content="Equipe 05">
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130165706-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-130165706-1');
+    </script>
+    
     <link rel=stylesheet media="screen and (max-width:480px)" href="css/style480/carrosselNot.css">
     <link rel="stylesheet" media="screen and (max-width:480px)" href="css/style480/menu.css">
     <link rel="stylesheet" media="screen and (max-width:480px)" href="css/style480/styleNoticias480.css">
@@ -30,7 +40,7 @@
 <body>
     <div id="containerPc">
         <header>
-            <a href="landpage.html" id="icon">
+            <a href="index.html" id="icon">
                 <img src="imagens/fiebIVazio.png" class="iconTop" alt="">
             </a>
             <nav>
@@ -48,7 +58,7 @@
                         <a href="https://fiebdigital.fieb.edu.br/vestibulinho">VESTIBULINHO</a>
                     </li>
                     <li>
-                        <a href="#">TESTE VOCACIONAL</a>
+                        <a href="testes.html">TESTE VOCACIONAL</a>
                     </li>
                     <li>
                         <a href="contatos.html">CONTATOS</a>
@@ -300,7 +310,7 @@
         </div>
         <footer>
             <div id="submenu">
-                <a href="landpage.html"> Home </a>
+                <a href="index.html"> Home </a>
                 <a href="cursos.html">Cursos</a>
                 <a href="unidades.html">Unidades</a>
                 <a href="noticias.html">Notícias</a>
@@ -309,7 +319,7 @@
                 <a href="contatos.html">Contato</a>
                 <ul id="login">
                     <li>
-                        <a href="login.html">Adm</a>
+                        <a href="login.php">Adm</a>
                     </li>
                 </ul>
             </div>
@@ -339,7 +349,7 @@
     <div id="containerM">
         <header id="header">
             <nav>
-                <a href="landpage.html">
+                <a href="index.html">
                     <img src="imagens/fiebIVazio.png" id="iconTop" alt="">
                 </a>
                 <input type="search" name="busca" id="busca">
@@ -350,7 +360,7 @@
                 </div>
                 <div class="barra">
                     <nav id="navMenu">
-                        <a href="landpage.html">
+                        <a href="index.html">
                             <div class="link">Home</div>
                         </a>
                         <a href="cursos.html">
@@ -484,7 +494,7 @@
         </div>
         <footer>
             <div id="submenu">
-                <a href="landpage.html"> Home </a>
+                <a href="index.html"> Home </a>
                 <a href="cursos.html">Cursos</a>
                 <a href="unidades.html">Unidades</a>
                 <a href="noticias.html">Notícias</a>
@@ -508,9 +518,7 @@
                 <a href="https://www.flickr.com/">
                     <img src="imagens/icones/flikr.png" alt="">
                 </a>
-                <a href="login.php">
-                    <img src="imagens/imgLogin.png" id="imgAdm" alt="">
-                </a>
+
             </div>
             <p id="copy">© Copyright 2010-2018 - Fundação Instituto de Educação de Barueri - Todos os direitos
                 reservados.</p>

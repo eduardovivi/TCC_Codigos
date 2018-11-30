@@ -9,9 +9,9 @@ $(document).ready(function(){
 
 function validaLogin(login,senha){
    if(login.val() === ""){
-       alert("Informe o Email!");
+
    } else if(senha.val() === ""){
-       alert("Informe a Senha!");
+
    }else{
       $("#resultado").html("");
       $("#resultado").append('<img src="imagens/loading.gif" height="60" width="60">');
